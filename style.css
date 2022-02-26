@@ -1,0 +1,35 @@
+.box{
+    border: 1px solid red;
+    background-color: bisque;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    display: inline-block;
+}
+#box3{
+    background-color: aqua;
+    position: absolute;
+    top: 150px;
+}
+#box2{
+    background-color:royalblue;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+#box1{
+    background-color:yellowgreen;
+    position: fixed;
+    bottom: 4px;
+    right: 4px;
+}
+#box4{
+    background-color: orange;
+    position: sticky;
+    top: 0px;
+}
+.container{
+    border: 2px solid forestgreen;
+    background-color: gray;
+    height: 1500px;
+}
